@@ -12,5 +12,5 @@ activate it and you're done!
 
 ## Shoutout
 
-This plugin is a copy/paste (with a minor modification)
+This plugin is a copy/paste (with added support for post titles and excerpts)
 from [this StackOverflow response](https://stackoverflow.com/a/75888275/4949411).
