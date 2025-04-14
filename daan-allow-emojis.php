@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Daan - Allow Emoji's
  * Description: This plugin makes sure you can use emoji's in your posts' content.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Daan from Daan.dev
  * Author URI: https://daan.dev
  * GitHub Plugin URI: Dan0sz/allow-emojis
