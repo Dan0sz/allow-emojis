@@ -1,0 +1,9 @@
+# Allow Emoji's in WordPress Posts
+
+This plugin uses `wp_encode_emoji` to encode any emojis in the post content into a format that is safe for saving in the
+database. It converts emojis to Unicode escape sequences (e.g., \u{1F600} for 😀) to ensure compatibility with databases
+that might not fully support native emoji storage.
+
+## Installation
+
+There is no configuration. Just install the latest release, activate it and you're done!
