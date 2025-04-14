@@ -6,7 +6,9 @@ that might not fully support native emoji storage.
 
 ## Installation
 
-There is no configuration. Just install the latest release, activate it and you're done!
+There is no configuration. Just
+install [the latest release](https://github.com/Dan0sz/allow-emojis/releases/latest/download/daan-allow-emojis.zip),
+activate it and you're done!
 
 ## Shoutout
 
