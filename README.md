@@ -7,3 +7,8 @@ that might not fully support native emoji storage.
 ## Installation
 
 There is no configuration. Just install the latest release, activate it and you're done!
+
+## Shoutout
+
+This plugin is a copy/paste (with a minor modification)
+from [this StackOverflow response](https://stackoverflow.com/a/75888275/4949411).
