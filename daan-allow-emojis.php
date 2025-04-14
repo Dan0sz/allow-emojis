@@ -13,8 +13,16 @@
 add_filter(
 	'wp_insert_post_data',
 	function ( $data ) {
+		if ( ! empty( $data[ 'post_title' ] ) ) {
+			$data[ 'post_title' ] = wp_encode_emoji( $data[ 'post_title' ] );
+		}
+
 		if ( ! empty( $data[ 'post_content' ] ) ) {
 			$data[ 'post_content' ] = wp_encode_emoji( $data[ 'post_content' ] );
+		}
+
+		if ( ! empty( $data[ 'post_excerpt' ] ) ) {
+			$data[ 'post_excerpt' ] = wp_encode_emoji( $data[ 'post_excerpt' ] );
 		}
 
 		return $data;
